@@ -55,7 +55,37 @@ header em {
     margin-bottom: 30px;
 }
 
+.tabmenu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 0 35px;
+}
 
+.tabmenu a {
+    color: #fff;
+    padding: 15px 35px;
+    border: 1px solid #ccc;
+    width: 100px;
+    text-align: center;
+}
+
+.tabmenu a.on {
+    background: #000;
+}
+
+.text_box {
+    font-size: 18px;
+    color: #fff;
+    padding: 0 35px;
+    padding-bottom: 100px;
+    line-height: 1.4;
+}
+
+.link_box {
+    display: none;
+}
 
 .btn_box {
 
