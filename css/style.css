@@ -1,0 +1,46 @@
+@charset @import url(font.css);
+@import url(reset.css);
+
+
+
+#wrap {}
+
+header {
+    margin: 40px 0;
+    border: 1px solid #000;
+    padding: 0 40px;
+}
+
+header h1 {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+header strong {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+header em {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 4px;
+    color: #888;
+    font-style: normal;
+    word-break: keep-all;
+}
+
+.btn_box {
+    margin-bottom: 40px;
+    border: 1px solid red;
+}
+
+.map_box {
+    border: 1px solid blue;
+}
