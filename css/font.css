@@ -1,4 +1,10 @@
-@charset "UTF-8";
+@charset "UTF-80" ;
+
+
+
+
+
+
 
 @font-face {
     font-family: 'Pretendard-Thin';
@@ -55,18 +61,4 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'WAGURITTF';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GyeonggiBatang';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {font-family: 'Pretendard-Regular';}
+body {font-family: 'Pretendard-Regular';} 
