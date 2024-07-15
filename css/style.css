@@ -39,7 +39,7 @@ header strong {
     text-align: center;
     display: block;
     margin-top: 10px;
-    color: #fff;
+    color: #333;
     margin-bottom: 30px;
 
 }
@@ -49,7 +49,7 @@ header em {
     text-align: center;
     display: block;
     margin-top: 4px;
-    color: #888;
+    color: #333;
     font-style: normal;
     word-break: keep-all;
     margin-bottom: 30px;
@@ -104,7 +104,7 @@ header em {
 }
 
 .map_box {
-    border: 1px solid blue;
+
     padding: 0 35px;
     padding-bottom: 100px;
 }
@@ -113,9 +113,14 @@ header em {
     font-size: 16px;
     text-align: center;
     margin-bottom: 20px;
-    color: #fff;
+    color: #333;
 }
 
+.map {
+
+    display: flex;
+    justify-content: center;
+}
 
 
 
